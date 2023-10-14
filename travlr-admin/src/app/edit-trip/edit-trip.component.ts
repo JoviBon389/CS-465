@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { TripDataService } from 'src/app//services/trip-data.service';
-import { Trip } from 'models/trip';
+import { Trip } from 'src/app/models/trip';
 
 
 @Component({
